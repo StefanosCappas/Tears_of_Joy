@@ -1,0 +1,13 @@
+Οι εκδόσεις είναι: 1.10.x, 1.11.x, 1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x, 1.17.x, 1.18.x, 1.19.2, 1.19.x. Με το MetricsCalculator.jar έκανα τις μετρικές 
+πάντα στην διαδρομή του πηγαίου κώδικα \\MinecraftForge-1.x.y\src\main\java και με αυτόν θα συγκρίνω τις κάθε εκδόσεις του. Ξέρω ότι υπάρχουν και άλλα 
+εκτελέσιμα αρχεία .java αλλά αποφάσισα να δουλέψω με τον πυρήνα του παιχνιδιού, δηλαδή με το Main. Αφού έκανα τις μετρικές για τα 11 αρχεία (πήρε 5 ώρες 
+επειδή έχω:
+* επεξεργαστή για πέταμα intel core i7 4700MQ στα 800MHz, 
+  επειδή στα bios το intel turbo boost technology = disabled, intel dynamic frequency = disabled, cpu frequency = 0%. (Μακάρι να έκανα και core multi 
+  proccessing = disabled αλλά ο υπολογιστής κρασάρει συνέχει και κάνει επανεκκίνηση, για αυτό τον λόγο το κράτησα enabled), 
+* cache αργή στα 800MHz L1 = 256KB συνολική, L2 = 1MB συνολική, L3 = 6MB επειδή cpu frequency = 0%, στο intel xtu έχω το processor graphics ratio limit = 0x
+* αργή και μικρή μνήμη ram ddr3 24GB στα 800 MHz,
+* κάρτα γραφικών για πέταμα intel HD 4600 στα 150MHz επειδή στο intel xtu έχω το processor graphics ration limit = 0x. με μνήμη vram για την κάρτα γραφικών
+  128 MB αποκλειστική στα 800 MHz
+* απενεργοποιημένη επίτηδες την κάρτα γραφικών nvidia GT 745 M
+* όλα τα voltage στο -0.1volt μέσω του Intel xtu).
